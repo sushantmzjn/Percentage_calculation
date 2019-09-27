@@ -21,21 +21,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:hint="Grade"/>
+        android:inputType="number"
+        android:hint="Obtained marks"/>
     <EditText
         android:id="@+id/grade2"
         android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:hint="Grade"/>
+        android:inputType="number"
+        android:hint="Obtained marks"/>
     <EditText
         android:id="@+id/grade3"
         android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:hint="Grade"/>
+        android:inputType="number"
+        android:hint="Obtained marks"/>
     <Button
         android:layout_margin="20dp"
         android:id="@+id/calculate"
